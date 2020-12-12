@@ -1,0 +1,7 @@
+[General]
+IP={Server Private IP Address}
+Username={Server Admin Username}
+Password={Server Admin Password}
+
+[Locations]
+Films={Films Directory}
