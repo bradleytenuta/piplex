@@ -1,14 +1,23 @@
+#### Folders
+
+##### /logs
+
+This folder contains the logs produced by these scripts and cron jobs created by these scripts.
+
+##### /mnt
+
+The word 'mnt' stands for mount. This is where the scripts would mount the provided external hard drives.
+
 #### Get shell files to work on the linux machine.
 
 Once you've checked out this repository, you'll need to give execute permission
 to these shell files as by default, Linux will not let you run them.
 
 The three commands will give the user who owns these files, permission to execute them.
-Run these commands below in the current directory.
+Run these commands below in the current directory. This will recursivly give permissions
+to each file in the directory given.
 
-chmod u+x plex-install.sh
-chmod u+x plex-run-cron.sh
-chmod u+x plex-update.sh
+sudo chmod -R u+x [DIR]
 
 #### Add Static IP Address
 
