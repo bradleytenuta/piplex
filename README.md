@@ -47,3 +47,9 @@ Now simply restart the Pi by running the following command.
 -   sudo service plexmediaserver start
 -   sudo service plexmediaserver stop
 -   sudo service plexmediaserver restart
+
+#### Transfering files over SSH with 'scp'
+
+Below is an example command on how to use scp:
+
+`scp -r <THIS-PC-DIRECTORY>\* <username>@<IP>:<DIRECTORY-TO-DOWNLOAD-TO>`
