@@ -69,6 +69,8 @@ Below are some useful commands to run on the raspberry pi:
 
 - Checks that the OpenVPN is on: `sudo netstat -tlnpu | grep openvpn`.
 - Check what the current public IP is: `curl icanhazip.com`.
+- This will stop the VPN: `sudo systemctl stop openvpn`.
+- This will prevent it from starting on boot: `sudo systemctl disable openvpn`.
 
 #### Updating Plex Server
 
