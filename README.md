@@ -69,3 +69,11 @@ Below are some useful commands to run on the raspberry pi:
 
 - Checks that the OpenVPN is on: `sudo netstat -tlnpu | grep openvpn`.
 - Check what the current public IP is: `curl icanhazip.com`.
+
+#### Updating Plex Server
+
+- In order to update the plex server first turn it off with the following command: `sudo service plexmediaserver stop`.
+- Run the following command to download and add the key to the package manager. This key is used to ensure the files that you are downloading are in fact from that repository and signed by that key. `curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -`.
+- With the Plex GPG key now added, we can finally add the official plex repository to the sources list by running the following command. `echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list`.
+- As we have just added a new repository to our sources, we will need to run the "update" command again to refresh the package list. `sudo apt-get update`.
+- The following command updates the current version of the plex media server `sudo apt-get install --only-upgrade plexmediaserver`.
