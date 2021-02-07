@@ -58,6 +58,7 @@ Below is an example command on how to use scp:
 
 In order to get this to work first you will need to follow all 3 guides of this [guide](https://pimylifeup.com/raspberry-pi-surfshark/). 
 This guide uses the surfshark VPN. This will require the user to have SurfShark VPN and to create credentials on the SurfShark website.
+When performing these steps you have to manually add a surfshark server, this is an example of a server to use: `uk-lon.prod.surfshark.com_udp.ovpn`.
 
 Once this is done and you have the vpn running on start up. You may need to add a few lines to the vpn .conf file in order for the vpn to ping sites like google.com.
 Follow this [link](https://www.raspberrypi.org/forums/viewtopic.php?t=53610) to fix this issue.
