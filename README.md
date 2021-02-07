@@ -1,14 +1,14 @@
-#### Folders
+## Project Structure
 
-##### /logs
+#### /logs
 
 This folder contains the logs produced by these scripts and cron jobs created by these scripts.
 
-##### /mnt
+#### /mnt
 
 The word 'mnt' stands for mount. This is where the scripts would mount the provided external hard drives.
 
-#### Get shell files to work on the linux machine.
+## Get shell files to work on the linux machine.
 
 Once you've checked out this repository, you'll need to give execute permission
 to these shell files as by default, Linux will not let you run them.
@@ -19,7 +19,7 @@ to each file in the directory given.
 
 sudo chmod -R u+x [DIR]
 
-#### Add Static IP Address
+## Add Static IP Address
 
 There are two reasons to use a static IP. One is that the IP will be easier to remember.
 Second is that it will make sure your Plex server can always be found at the same address.
@@ -42,19 +42,19 @@ Now simply restart the Pi by running the following command.
 
 `sudo reboot`
 
-#### Plex Commands
+## Plex Commands
 
 -   sudo service plexmediaserver start
 -   sudo service plexmediaserver stop
 -   sudo service plexmediaserver restart
 
-#### Transfering files over SSH with 'scp'
+## Transfering files over SSH with 'scp'
 
 Below is an example command on how to use scp:
 
 `scp -r <THIS-PC-DIRECTORY>\* <username>@<IP>:<DIRECTORY-TO-DOWNLOAD-TO>`
 
-#### Using a VPN on the Rasberry PI while running Plex Server
+## Using a VPN on the Rasberry PI while running Plex Server
 
 In order to get this to work first you will need to follow all 3 guides of this [guide](https://pimylifeup.com/raspberry-pi-surfshark/). 
 This guide uses the surfshark VPN. This will require the user to have SurfShark VPN and to create credentials on the SurfShark website.
@@ -72,7 +72,7 @@ Below are some useful commands to run on the raspberry pi:
 - This will stop the VPN: `sudo systemctl stop openvpn`.
 - This will prevent it from starting on boot: `sudo systemctl disable openvpn`.
 
-#### Updating Plex Server
+## Updating Plex Server
 
 - In order to update the plex server first turn it off with the following command: `sudo service plexmediaserver stop`.
 - Run the following command to download and add the key to the package manager. This key is used to ensure the files that you are downloading are in fact from that repository and signed by that key. `curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -`.
