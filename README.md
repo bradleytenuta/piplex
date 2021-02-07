@@ -53,3 +53,19 @@ Now simply restart the Pi by running the following command.
 Below is an example command on how to use scp:
 
 `scp -r <THIS-PC-DIRECTORY>\* <username>@<IP>:<DIRECTORY-TO-DOWNLOAD-TO>`
+
+#### Using a VPN on the Rasberry PI while running Plex Server
+
+In order to get this to work first you will need to follow all 3 guides of this [guide](https://pimylifeup.com/raspberry-pi-surfshark/). 
+This guide uses the surfshark VPN. This will require the user to have SurfShark VPN and to create credentials on the SurfShark website.
+
+Once this is done and you have the vpn running on start up. You may need to add a few lines to the vpn .conf file in order for the vpn to ping sites like google.com.
+Follow this [link](https://www.raspberrypi.org/forums/viewtopic.php?t=53610) to fix this issue.
+
+Now everything should work, only problem now is its not possible to access the plex server from outside your network due to no VPN port forwarding. A solution might be
+to add a port forwarding rule for your router. Add the Private IP of the plex server, use port recommened by plex e.g. `32400`. Use any external port like `11303` and use protocol `UDP`. UDP is much faster than `TCP` when it comes to streaming.
+
+Below are some useful commands to run on the raspberry pi:
+
+- Checks that the OpenVPN is on: `sudo netstat -tlnpu | grep openvpn`.
+- Check what the current public IP is: `curl icanhazip.com`.
