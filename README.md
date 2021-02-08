@@ -63,8 +63,10 @@ When performing these steps you have to manually add a surfshark server, this is
 Once this is done and you have the vpn running on start up. You may need to add a few lines to the vpn .conf file in order for the vpn to ping sites like google.com.
 Follow this [link](https://www.raspberrypi.org/forums/viewtopic.php?t=53610) to fix this issue.
 
-Now everything should work, only problem now is its not possible to access the plex server from outside your network due to no VPN port forwarding. A solution might be
-to add a port forwarding rule for your router. Add the Private IP of the plex server, use port recommened by plex e.g. `32400`. Use any external port like `11303` and use protocol `UDP`. UDP is much faster than `TCP` when it comes to streaming.
+Finally you need to add a VPN bypass for plex. This means the VPN is used for everything except PLEX. To do that, open the openvpn conf file you created
+and add this line of code to the bottom of the conf file: `route plex.tv 255.255.255.255 <ROUTER-IP>`.
+
+Now everything should work, plex should handle the adding of port forwarding for you as long as UPnP is turned on as a feature in your router.
 
 Below are some useful commands to run on the raspberry pi:
 
