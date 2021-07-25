@@ -10,6 +10,8 @@ To run the docker container: `docker-compose -f ~/piplex/docker-compose.yml up -
 
 To shutdown the docker container `docker-compose -f ~/piplex/docker-compose.yml down`.
 
+See all containers running `docker ps`.
+
 ## Install Docker
 
 `sudo apt-get update && sudo apt-get upgrade`
