@@ -8,6 +8,9 @@ services:
             - PUID=1001 # for UserID - `id username` - Gets username if and group ids it is a part of.
             - PGID=1002 # for GroupID
             - VERSION=docker # Let Docker handle the Plex Version, we keep our Dockerhub Endpoint up to date with the latest public builds.
+            - TZ=Europe/London
+        ports:
+            - 32400:32400
         volumes:
             - ~/piplex/config:/config
         #    - /path/to/tvseries:/tv
