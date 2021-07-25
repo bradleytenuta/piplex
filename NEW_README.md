@@ -14,7 +14,7 @@ To shutdown the docker container `docker-compose -f ~/piplex/docker-compose.yml 
 
 `sudo apt-get update && sudo apt-get upgrade`
 
-`curl -sSL https://get.docker.com | sh`
+`curl -sSL https://get.docker.com | sh` NOTE - only run this command if docker is not installed.
 
 ## Install Docker Compose
 
@@ -45,3 +45,7 @@ sudo apt-get install -y python3 python3-pip
 `uid=bradleytenuta`
 
 `gid=plexgroup`
+
+## Update Images
+
+`docker-compose pull`

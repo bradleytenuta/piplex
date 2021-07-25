@@ -5,8 +5,8 @@ services:
         container_name: plex
         network_mode: host
         environment:
-            - PUID=1000 # for UserID
-            - PGID=1000 # for GroupID
+            - PUID=1001 # for UserID - To check PUID use command: `id -u username`.
+            - PGID=1002 # for GroupID - If you wish to find out all the groups a user belongs to - `id -G username`.
             - VERSION=docker # Let Docker handle the Plex Version, we keep our Dockerhub Endpoint up to date with the latest public builds.
         volumes:
             - /path/to/library:/config

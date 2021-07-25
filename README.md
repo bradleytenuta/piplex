@@ -50,7 +50,7 @@ Now simply restart the Pi by running the following command.
 
 #### Logging into PI and moving files over.
 
-You can add a IP address to this file so you dont have to type in the IP everytime: 'C:\Windows\System32\drivers\etc\hosts'.
+You can add a IP address to this file so you dont have to type in the IP everytime: 'C:\Windows\System32\drivers\etc'.
 
 ##### Logging in
 
