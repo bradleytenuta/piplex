@@ -51,3 +51,31 @@ sudo apt-get install -y python3 python3-pip
 ## Update Images
 
 `docker-compose pull`
+
+# I think on a fresh install only the following is needed.
+
+## Install Docker
+
+`sudo apt-get update && sudo apt-get upgrade`
+
+`curl -sSL https://get.docker.com | sh` NOTE - only run this command if docker is not installed.
+
+## Install Docker Compose
+
+```
+sudo apt-get install libffi-dev libssl-dev
+sudo apt install python3-dev
+sudo apt-get install -y python3 python3-pip
+```
+
+`sudo pip3 install docker-compose`
+
+`sudo systemctl enable docker`
+
+### Start and shutdown the plex server.
+
+To run the docker container: `sudo docker-compose -f ~/piplex/docker-compose.yml up -d`.
+
+To shutdown the docker container `sudo docker-compose -f ~/piplex/docker-compose.yml down`.
+
+See all containers running `docker ps`.

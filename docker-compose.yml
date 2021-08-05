@@ -3,14 +3,17 @@ services:
     plex:
         image: ghcr.io/linuxserver/plex
         container_name: plex
-        network_mode: host
+        network_mode: bridge
+        ports:
+            - "32400:32400"
         environment:
             - PUID=1001 # for UserID - `id username` - Gets username if and group ids it is a part of.
             - PGID=1002 # for GroupID
             - VERSION=docker # Let Docker handle the Plex Version, we keep our Dockerhub Endpoint up to date with the latest public builds.
             - TZ=Europe/London
-        volumes:
-            - ~/piplex/config:/config
-        #    - /path/to/tvseries:/tv
+            - PLEX_CLAIM=<CLAIM_ID> # https://plex.tv/claim - If you have not already claimed your server (first time setup) you need to set PLEX_CLAIM to claim a server set up with bridge networking
+        #volumes:
+        #    - ~/piplex/config:/config
+        #    - /path/to/tv:/tv
         #    - /path/to/movies:/movies
         restart: unless-stopped
