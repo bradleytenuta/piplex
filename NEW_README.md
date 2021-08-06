@@ -74,8 +74,12 @@ sudo apt-get install -y python3 python3-pip
 
 ### Start and shutdown the plex server.
 
-To run the docker container: `sudo docker-compose -f ~/piplex/docker-compose.yml up -d`.
+To run the docker container: `docker-compose -f ~/piplex/docker-compose.yml up -d`.
 
-To shutdown the docker container `sudo docker-compose -f ~/piplex/docker-compose.yml down`.
+To shutdown the docker container `docker-compose -f ~/piplex/docker-compose.yml down`.
 
 See all containers running `docker ps`.
+
+docker logs plex
+
+make sure to name the plex server 'Bradley-Pi' when starting it.
