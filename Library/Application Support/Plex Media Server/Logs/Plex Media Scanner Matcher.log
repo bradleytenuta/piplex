@@ -1,0 +1,250 @@
+Aug 08, 2021 14:55:56.830 [0x74776d50] INFO - Plex Media Scanner v1.23.5.4862-0f739d462 - Docker Docker Container (LinuxServer.io) armv7l - build: linux-armv7neon - GMT 01:00
+Aug 08, 2021 14:55:56.834 [0x74776d50] INFO - Linux version: 4.19.66-v7+, language: en-US
+Aug 08, 2021 14:55:56.835 [0x74776d50] INFO - Processor Arm
+Aug 08, 2021 14:55:56.835 [0x74776d50] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 2 --log-file-suffix  Matcher --item 1273
+Aug 08, 2021 14:55:56.832 [0x76c54dcc] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Aug 08, 2021 14:55:57.475 [0x76c54dcc] DEBUG - Matcher: found 0 auxiliary files for Season 1
+Aug 08, 2021 14:55:57.488 [0x76c54dcc] DEBUG - [MI] Opening input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e01.mp4"
+Aug 08, 2021 14:55:57.489 [0x76c54dcc] DEBUG - [FFMPEG] - Opening '/tv/The Office (U.S)/Season 1/The.Office.-.s01e01.mp4' for reading
+Aug 08, 2021 14:55:57.489 [0x76c54dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:57.491 [0x76c54dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:57.492 [0x76c54dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:57.492 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.520 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 4234
+Aug 08, 2021 14:55:57.520 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 58587503
+Aug 08, 2021 14:55:57.530 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.555 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 119588400
+Aug 08, 2021 14:55:57.555 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:57.555 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:57.569 [0x76c54dcc] DEBUG - [FFMPEG] - Offset DTS by 7200 to make first pts zero.
+Aug 08, 2021 14:55:57.573 [0x76c54dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 1
+Aug 08, 2021 14:55:57.574 [0x76c54dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1132549 bytes read:1163458 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:57.576 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.576 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.577 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:57.577 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.577 [0x76c54dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:57.580 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.584 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:57.586 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.590 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:57.598 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:57.598 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:57.598 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:57.599 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:57.599 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:57.599 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:57.599 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:57.599 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:57.600 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:57.600 [0x76c54dcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:57.600 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Aug 08, 2021 14:55:57.608 [0x76c54dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:57.609 [0x76c54dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1135563 bytes read:1163458 seeks:0 frames:6
+Aug 08, 2021 14:55:57.610 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.610 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.611 [0x76c54dcc] DEBUG - [MI] Closing input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e01.mp4"
+Aug 08, 2021 14:55:57.614 [0x76c54dcc] DEBUG - Matcher: no sidecar subtitle files found for /tv/The Office (U.S)/Season 1/The.Office.-.s01e01.mp4
+Aug 08, 2021 14:55:57.614 [0x76c54dcc] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file
+Aug 08, 2021 14:55:57.614 [0x76c54dcc] DEBUG - [MI] Opening input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e02.mp4"
+Aug 08, 2021 14:55:57.615 [0x76c54dcc] DEBUG - [FFMPEG] - Opening '/tv/The Office (U.S)/Season 1/The.Office.-.s01e02.mp4' for reading
+Aug 08, 2021 14:55:57.615 [0x76c54dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:57.616 [0x76c54dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:57.617 [0x76c54dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:57.617 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.644 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 706
+Aug 08, 2021 14:55:57.644 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 55457075
+Aug 08, 2021 14:55:57.653 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.677 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 113191200
+Aug 08, 2021 14:55:57.677 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:57.677 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:57.691 [0x76c54dcc] DEBUG - [FFMPEG] - Offset DTS by 7200 to make first pts zero.
+Aug 08, 2021 14:55:57.694 [0x76c54dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 1
+Aug 08, 2021 14:55:57.695 [0x76c54dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1069457 bytes read:1074698 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:57.696 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.696 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.697 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:57.697 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.697 [0x76c54dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:57.700 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.703 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:57.704 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:57.704 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:57.705 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:57.705 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:57.705 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:57.705 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:57.705 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:57.706 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:57.706 [0x76c54dcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:57.706 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:57.709 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.712 [0x76c54dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:57.713 [0x76c54dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1072416 bytes read:1074698 seeks:0 frames:4
+Aug 08, 2021 14:55:57.713 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.713 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.714 [0x76c54dcc] DEBUG - [MI] Closing input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e02.mp4"
+Aug 08, 2021 14:55:57.717 [0x76c54dcc] DEBUG - Matcher: no sidecar subtitle files found for /tv/The Office (U.S)/Season 1/The.Office.-.s01e02.mp4
+Aug 08, 2021 14:55:57.717 [0x76c54dcc] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file
+Aug 08, 2021 14:55:57.717 [0x76c54dcc] DEBUG - [MI] Opening input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e03.mp4"
+Aug 08, 2021 14:55:57.717 [0x76c54dcc] DEBUG - [FFMPEG] - Opening '/tv/The Office (U.S)/Season 1/The.Office.-.s01e03.mp4' for reading
+Aug 08, 2021 14:55:57.717 [0x76c54dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:57.719 [0x76c54dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:57.719 [0x76c54dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:57.719 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.746 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 4939
+Aug 08, 2021 14:55:57.746 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 56108047
+Aug 08, 2021 14:55:57.755 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.780 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 114530400
+Aug 08, 2021 14:55:57.780 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:57.780 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:57.793 [0x76c54dcc] DEBUG - [FFMPEG] - Offset DTS by 7200 to make first pts zero.
+Aug 08, 2021 14:55:57.796 [0x76c54dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 1
+Aug 08, 2021 14:55:57.797 [0x76c54dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1087069 bytes read:1090830 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:57.798 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.798 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.798 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:57.798 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.798 [0x76c54dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:57.801 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.805 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:57.807 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.811 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:57.819 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:57.819 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:57.819 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:57.819 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:57.820 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:57.820 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:57.820 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:57.820 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:57.821 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:57.821 [0x76c54dcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:57.821 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Aug 08, 2021 14:55:57.830 [0x76c54dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:57.831 [0x76c54dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1090083 bytes read:1090830 seeks:0 frames:6
+Aug 08, 2021 14:55:57.832 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.832 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.833 [0x76c54dcc] DEBUG - [MI] Closing input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e03.mp4"
+Aug 08, 2021 14:55:57.836 [0x76c54dcc] DEBUG - Matcher: no sidecar subtitle files found for /tv/The Office (U.S)/Season 1/The.Office.-.s01e03.mp4
+Aug 08, 2021 14:55:57.837 [0x76c54dcc] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file
+Aug 08, 2021 14:55:57.837 [0x76c54dcc] DEBUG - [MI] Opening input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e04.mp4"
+Aug 08, 2021 14:55:57.837 [0x76c54dcc] DEBUG - [FFMPEG] - Opening '/tv/The Office (U.S)/Season 1/The.Office.-.s01e04.mp4' for reading
+Aug 08, 2021 14:55:57.837 [0x76c54dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:57.839 [0x76c54dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:57.840 [0x76c54dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:57.840 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.869 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 1764
+Aug 08, 2021 14:55:57.869 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 55932919
+Aug 08, 2021 14:55:57.878 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.902 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 114166800
+Aug 08, 2021 14:55:57.902 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:57.902 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:57.917 [0x76c54dcc] DEBUG - [FFMPEG] - Offset DTS by 7200 to make first pts zero.
+Aug 08, 2021 14:55:57.920 [0x76c54dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 1
+Aug 08, 2021 14:55:57.921 [0x76c54dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1076969 bytes read:1081126 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:57.922 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.922 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.923 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:57.923 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.923 [0x76c54dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:57.927 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.931 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:57.932 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:57.932 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:57.932 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:57.932 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:57.933 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:57.933 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:57.933 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:57.934 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:57.934 [0x76c54dcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:57.934 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:57.937 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:57.941 [0x76c54dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:57.942 [0x76c54dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1079928 bytes read:1081126 seeks:0 frames:4
+Aug 08, 2021 14:55:57.943 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.943 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:57.944 [0x76c54dcc] DEBUG - [MI] Closing input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e04.mp4"
+Aug 08, 2021 14:55:57.947 [0x76c54dcc] DEBUG - Matcher: no sidecar subtitle files found for /tv/The Office (U.S)/Season 1/The.Office.-.s01e04.mp4
+Aug 08, 2021 14:55:57.947 [0x76c54dcc] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file
+Aug 08, 2021 14:55:57.947 [0x76c54dcc] DEBUG - [MI] Opening input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e05.mp4"
+Aug 08, 2021 14:55:57.947 [0x76c54dcc] DEBUG - [FFMPEG] - Opening '/tv/The Office (U.S)/Season 1/The.Office.-.s01e05.mp4' for reading
+Aug 08, 2021 14:55:57.947 [0x76c54dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:57.949 [0x76c54dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:57.950 [0x76c54dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:57.950 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:57.979 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 1764
+Aug 08, 2021 14:55:57.979 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 56150678
+Aug 08, 2021 14:55:57.989 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:58.014 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 114609600
+Aug 08, 2021 14:55:58.014 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:58.014 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:58.029 [0x76c54dcc] DEBUG - [FFMPEG] - Offset DTS by 7200 to make first pts zero.
+Aug 08, 2021 14:55:58.032 [0x76c54dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 1
+Aug 08, 2021 14:55:58.032 [0x76c54dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1077073 bytes read:1080738 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:58.033 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.033 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.033 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:58.033 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.034 [0x76c54dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:58.036 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:58.041 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:58.041 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:58.041 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:58.042 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:58.042 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:58.042 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:58.042 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:58.042 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:58.043 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:58.043 [0x76c54dcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:58.043 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:58.045 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:58.048 [0x76c54dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:58.049 [0x76c54dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1080032 bytes read:1080738 seeks:0 frames:4
+Aug 08, 2021 14:55:58.050 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.050 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.051 [0x76c54dcc] DEBUG - [MI] Closing input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e05.mp4"
+Aug 08, 2021 14:55:58.053 [0x76c54dcc] DEBUG - Matcher: no sidecar subtitle files found for /tv/The Office (U.S)/Season 1/The.Office.-.s01e05.mp4
+Aug 08, 2021 14:55:58.053 [0x76c54dcc] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file
+Aug 08, 2021 14:55:58.053 [0x76c54dcc] DEBUG - [MI] Opening input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e06.mp4"
+Aug 08, 2021 14:55:58.053 [0x76c54dcc] DEBUG - [FFMPEG] - Opening '/tv/The Office (U.S)/Season 1/The.Office.-.s01e06.mp4' for reading
+Aug 08, 2021 14:55:58.053 [0x76c54dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:58.055 [0x76c54dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:58.056 [0x76c54dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:58.056 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:58.083 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 2116
+Aug 08, 2021 14:55:58.083 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 56231329
+Aug 08, 2021 14:55:58.093 [0x76c54dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:58.117 [0x76c54dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 114775200
+Aug 08, 2021 14:55:58.117 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:58.117 [0x76c54dcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:58.132 [0x76c54dcc] DEBUG - [FFMPEG] - Offset DTS by 7200 to make first pts zero.
+Aug 08, 2021 14:55:58.135 [0x76c54dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 1
+Aug 08, 2021 14:55:58.137 [0x76c54dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1082289 bytes read:1085774 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:58.138 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.138 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.138 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:58.138 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.139 [0x76c54dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:58.142 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:58.146 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:58.148 [0x76c54dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:58.151 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:58.152 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:58.152 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:58.152 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:58.152 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:58.152 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:58.153 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:58.153 [0x76c54dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:58.153 [0x76c54dcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:58.153 [0x76c54dcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:58.153 [0x76c54dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:58.154 [0x76c54dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1085248 bytes read:1085774 seeks:0 frames:4
+Aug 08, 2021 14:55:58.155 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.155 [0x76c54dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:58.156 [0x76c54dcc] DEBUG - [MI] Closing input file: "/tv/The Office (U.S)/Season 1/The.Office.-.s01e06.mp4"
+Aug 08, 2021 14:55:58.160 [0x76c54dcc] DEBUG - Matcher: no sidecar subtitle files found for /tv/The Office (U.S)/Season 1/The.Office.-.s01e06.mp4
+Aug 08, 2021 14:55:58.160 [0x76c54dcc] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file

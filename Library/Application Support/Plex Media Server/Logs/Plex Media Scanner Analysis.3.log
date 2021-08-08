@@ -1,0 +1,72 @@
+Aug 08, 2021 14:55:41.339 [0x747e6d50] INFO - Plex Media Scanner v1.23.5.4862-0f739d462 - Docker Docker Container (LinuxServer.io) armv7l - build: linux-armv7neon - GMT 01:00
+Aug 08, 2021 14:55:41.343 [0x747e6d50] INFO - Linux version: 4.19.66-v7+, language: en-US
+Aug 08, 2021 14:55:41.343 [0x747e6d50] INFO - Processor Arm
+Aug 08, 2021 14:55:41.343 [0x747e6d50] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 1240
+Aug 08, 2021 14:55:41.313 [0x76cc4dcc] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Aug 08, 2021 14:55:42.172 [0x76cc4dcc] DEBUG - Analyzing media parts for item 1240 (Wild Child): 2662
+Aug 08, 2021 14:55:42.190 [0x76cc4dcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:42.190 [0x76cc4dcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:42.209 [0x76cc4dcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:42.210 [0x76cc4dcc] DEBUG - Updating metadata item (save) (Wild Child) with ID 1240
+Aug 08, 2021 14:55:42.222 [0x76cc4dcc] DEBUG - [ID 2662] Media part analysis: /movies/Wild Child (2008)/Wild.Child.2008.mp4
+Aug 08, 2021 14:55:42.223 [0x76cc4dcc] DEBUG - [MI] Opening input file: "/movies/Wild Child (2008)/Wild.Child.2008.mp4"
+Aug 08, 2021 14:55:42.223 [0x76cc4dcc] DEBUG - [FFMPEG] - Opening '/movies/Wild Child (2008)/Wild.Child.2008.mp4' for reading
+Aug 08, 2021 14:55:42.223 [0x76cc4dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:42.231 [0x76cc4dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:42.239 [0x76cc4dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:42.240 [0x76cc4dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:42.405 [0x76cc4dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 3528
+Aug 08, 2021 14:55:42.406 [0x76cc4dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 249722175
+Aug 08, 2021 14:55:42.447 [0x76cc4dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:42.574 [0x76cc4dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 584470980
+Aug 08, 2021 14:55:42.574 [0x76cc4dcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:42.574 [0x76cc4dcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:42.633 [0x76cc4dcc] DEBUG - [FFMPEG] - Offset DTS by 7200 to make first pts zero.
+Aug 08, 2021 14:55:42.654 [0x76cc4dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 1
+Aug 08, 2021 14:55:42.658 [0x76cc4dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4939789 bytes read:4963266 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:42.661 [0x76cc4dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:42.662 [0x76cc4dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:42.663 [0x76cc4dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:42.663 [0x76cc4dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:42.663 [0x76cc4dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:42.668 [0x76cc4dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:42.677 [0x76cc4dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:42.679 [0x76cc4dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:42.684 [0x76cc4dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:42.687 [0x76cc4dcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:42.687 [0x76cc4dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:42.688 [0x76cc4dcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:42.688 [0x76cc4dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:42.689 [0x76cc4dcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:42.689 [0x76cc4dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:42.689 [0x76cc4dcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:42.690 [0x76cc4dcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:42.690 [0x76cc4dcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:42.690 [0x76cc4dcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:42.703 [0x76cc4dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:42.706 [0x76cc4dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 4942771 bytes read:4963266 seeks:0 frames:5
+Aug 08, 2021 14:55:42.707 [0x76cc4dcc] DEBUG - [MI] Opening "/movies/Wild Child (2008)/Wild.Child.2008.mp4" for MP4 atom parsing
+Aug 08, 2021 14:55:42.707 [0x76cc4dcc] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
+Aug 08, 2021 14:55:42.708 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found moov atom of size 4939749 at offset 24
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found trak atom of size 2726345 at offset 140
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found trak atom of size 2213245 at offset 2726485
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found mdia atom of size 2726197 at offset 288
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found minf atom of size 2726112 at offset 373
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found stbl atom of size 2726052 at offset 433
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found mdia atom of size 2213109 at offset 2726621
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found minf atom of size 2213024 at offset 2726706
+Aug 08, 2021 14:55:42.728 [0x76cc4dcc] DEBUG - Mp4AtomParser: Found stbl atom of size 2212960 at offset 2726770
+Aug 08, 2021 14:55:42.743 [0x76cc4dcc] DEBUG - [MI]  * c1f2de02e98c599889193e7e82b05215e41a9b6d [mp4 h264/mp2] Duration: 5663120ms, 720x576 (1.777778) 25.000fps, bitrate=1125kbps, audio channels=2, optimizedForStreaming=1 ("/movies/Wild Child (2008)/Wild.Child.2008.mp4")
+Aug 08, 2021 14:55:42.743 [0x76cc4dcc] DEBUG - [MI] Chapters had generic titles, clearing.
+Aug 08, 2021 14:55:42.746 [0x76cc4dcc] DEBUG - [MI] Closing input file: "/movies/Wild Child (2008)/Wild.Child.2008.mp4"
+Aug 08, 2021 14:55:42.771 [0x76cc4dcc] DEBUG - Committing media stream changes for part 2662
+Aug 08, 2021 14:55:42.778 [0x76cc4dcc] DEBUG - Updating media item 2662, size=796455580, metadata_item_id=1240
+Aug 08, 2021 14:55:42.780 [0x76cc4dcc] DEBUG - Updating part with ID=2662 [/movies/Wild Child (2008)/Wild.Child.2008.mp4]
+Aug 08, 2021 14:55:42.782 [0x73e4bd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1240&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Aug 08, 2021 14:55:42.804 [0x73e4bd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1240&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Aug 08, 2021 14:55:42.805 [0x76cc4dcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:42.805 [0x76cc4dcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:42.809 [0x73e4bd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1240&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:42.815 [0x73e4bd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1240&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:42.821 [0x76cc4dcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:42.822 [0x76cc4dcc] DEBUG - Updating metadata item (save) (Wild Child) with ID 1240

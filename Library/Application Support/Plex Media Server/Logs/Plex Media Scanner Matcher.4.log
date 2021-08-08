@@ -1,0 +1,34 @@
+Aug 08, 2021 14:55:45.266 [0x747fbd50] INFO - Plex Media Scanner v1.23.5.4862-0f739d462 - Docker Docker Container (LinuxServer.io) armv7l - build: linux-armv7neon - GMT 01:00
+Aug 08, 2021 14:55:45.267 [0x747fbd50] INFO - Linux version: 4.19.66-v7+, language: en-US
+Aug 08, 2021 14:55:45.267 [0x747fbd50] INFO - Processor Arm
+Aug 08, 2021 14:55:45.267 [0x747fbd50] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1247
+Aug 08, 2021 14:55:45.245 [0x76cd9dcc] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Aug 08, 2021 14:55:46.081 [0x76cd9dcc] DEBUG - [MI] Opening input file: "/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4"
+Aug 08, 2021 14:55:46.082 [0x76cd9dcc] DEBUG - [FFMPEG] - Opening '/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4' for reading
+Aug 08, 2021 14:55:46.083 [0x76cd9dcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:46.085 [0x76cd9dcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:46.086 [0x76cd9dcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:46.086 [0x76cd9dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:46.233 [0x76cd9dcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 168438288
+Aug 08, 2021 14:55:46.325 [0x76cd9dcc] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Aug 08, 2021 14:55:46.357 [0x76cd9dcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Aug 08, 2021 14:55:46.361 [0x76cd9dcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:46.583 [0x76cd9dcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 336875472
+Aug 08, 2021 14:55:46.584 [0x76cd9dcc] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Aug 08, 2021 14:55:46.584 [0x76cd9dcc] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Aug 08, 2021 14:55:46.650 [0x76cd9dcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6159681 bytes read:6174599 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:46.652 [0x76cd9dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:46.652 [0x76cd9dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:46.653 [0x76cd9dcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:46.654 [0x76cd9dcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:46.654 [0x76cd9dcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:46.665 [0x76cd9dcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:46.681 [0x76cd9dcc] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Aug 08, 2021 14:55:46.681 [0x76cd9dcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:46.682 [0x76cd9dcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 6160795 bytes read:6174599 seeks:0 frames:2
+Aug 08, 2021 14:55:46.683 [0x76cd9dcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:46.683 [0x76cd9dcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:46.684 [0x76cd9dcc] DEBUG - [MI] Closing input file: "/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4"
+Aug 08, 2021 14:55:46.696 [0x76cd9dcc] DEBUG - Matcher: found 0 auxiliary files in "/movies/You Only Live Twice (1967)" (single media: yes)
+Aug 08, 2021 14:55:46.697 [0x76cd9dcc] DEBUG - Matcher: no sidecar subtitle files found for "/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4"
+Aug 08, 2021 14:55:46.700 [0x76cd9dcc] DEBUG - Matcher: no valid subtitles found, removing any existing media bundle file

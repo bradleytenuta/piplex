@@ -1,0 +1,357 @@
+Aug 08, 2021 14:55:48.566 [0x7477fd50] INFO - Plex Media Scanner v1.23.5.4862-0f739d462 - Docker Docker Container (LinuxServer.io) armv7l - build: linux-armv7neon - GMT 01:00
+Aug 08, 2021 14:55:48.567 [0x7477fd50] INFO - Linux version: 4.19.66-v7+, language: en-US
+Aug 08, 2021 14:55:48.567 [0x7477fd50] INFO - Processor Arm
+Aug 08, 2021 14:55:48.567 [0x7477fd50] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 1267,1268,1269,1270,1271
+Aug 08, 2021 14:55:48.559 [0x76c5ddcc] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Aug 08, 2021 14:55:49.289 [0x76c5ddcc] DEBUG - Analyzing media parts for item 1267 (Episode 1): 2712
+Aug 08, 2021 14:55:49.293 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:49.293 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:49.300 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:49.301 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 1) with ID 1267
+Aug 08, 2021 14:55:49.311 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:49.319 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:49.320 [0x76c5ddcc] DEBUG - [ID 2712] Media part analysis: /tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e01.mp4
+Aug 08, 2021 14:55:49.321 [0x76c5ddcc] DEBUG - [MI] Opening input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e01.mp4"
+Aug 08, 2021 14:55:49.321 [0x76c5ddcc] DEBUG - [FFMPEG] - Opening '/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e01.mp4' for reading
+Aug 08, 2021 14:55:49.321 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:49.324 [0x76c5ddcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:49.324 [0x76c5ddcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:49.325 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:49.375 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 156690000
+Aug 08, 2021 14:55:49.376 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:49.376 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:49.398 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Aug 08, 2021 14:55:49.399 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:49.463 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: -1, duration: 353
+Aug 08, 2021 14:55:49.463 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 1 - media time: 0, duration: 76772950
+Aug 08, 2021 14:55:49.477 [0x76c5ddcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1713222 bytes read:1726085 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:49.480 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:49.480 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:49.481 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:49.481 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:49.481 [0x76c5ddcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:49.483 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:49.497 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:49.498 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:49.510 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:49.519 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2500
+Aug 08, 2021 14:55:49.519 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:49.519 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2499
+Aug 08, 2021 14:55:49.520 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:49.520 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2498
+Aug 08, 2021 14:55:49.521 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:49.521 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2497
+Aug 08, 2021 14:55:49.521 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2496
+Aug 08, 2021 14:55:49.522 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:49.522 [0x76c5ddcc] DEBUG - [FFMPEG] - probed stream 1
+Aug 08, 2021 14:55:49.522 [0x76c5ddcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:49.522 [0x76c5ddcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1741091 bytes read:1758853 seeks:0 frames:5
+Aug 08, 2021 14:55:49.523 [0x76c5ddcc] DEBUG - [MI] Opening "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e01.mp4" for MP4 atom parsing
+Aug 08, 2021 14:55:49.523 [0x76c5ddcc] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
+Aug 08, 2021 14:55:49.523 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found moov atom of size 1713182 at offset 24
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 622061 at offset 140
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 1090961 at offset 622201
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 621925 at offset 276
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 621840 at offset 361
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 621776 at offset 425
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 1090813 at offset 622349
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 1090728 at offset 622434
+Aug 08, 2021 14:55:49.529 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 1090668 at offset 622494
+Aug 08, 2021 14:55:49.531 [0x76c5ddcc] DEBUG - [MI]  * 6b4e76a0669f98221cbbc915a9f11951cf1466cf [mp4 h264/mp2] Duration: 1740920ms, 624x352 (1.772727) 25.001fps, bitrate=689kbps, audio channels=2, optimizedForStreaming=1 ("/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e01.mp4")
+Aug 08, 2021 14:55:49.531 [0x76c5ddcc] DEBUG - [MI] Chapters had generic titles, clearing.
+Aug 08, 2021 14:55:49.534 [0x76c5ddcc] DEBUG - [MI] Closing input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e01.mp4"
+Aug 08, 2021 14:55:49.539 [0x76c5ddcc] DEBUG - Committing media stream changes for part 2712
+Aug 08, 2021 14:55:49.544 [0x76c5ddcc] DEBUG - Updating media item 2712, size=149996195, metadata_item_id=1267
+Aug 08, 2021 14:55:49.545 [0x76c5ddcc] DEBUG - Updating part with ID=2712 [/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e01.mp4]
+Aug 08, 2021 14:55:50.679 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1267&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Aug 08, 2021 14:55:50.689 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1267&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Aug 08, 2021 14:55:50.693 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1267&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:50.699 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1267&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Aug 08, 2021 14:55:50.701 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:50.702 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:50.719 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:50.720 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 1) with ID 1267
+Aug 08, 2021 14:55:50.736 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:50.743 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:50.748 [0x76c5ddcc] DEBUG - Analyzing media parts for item 1268 (Episode 2): 2713
+Aug 08, 2021 14:55:50.751 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:50.751 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:50.757 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:50.758 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 2) with ID 1268
+Aug 08, 2021 14:55:50.764 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:50.768 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:50.768 [0x76c5ddcc] DEBUG - [ID 2713] Media part analysis: /tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e02.mp4
+Aug 08, 2021 14:55:50.773 [0x76c5ddcc] DEBUG - [MI] Opening input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e02.mp4"
+Aug 08, 2021 14:55:50.773 [0x76c5ddcc] DEBUG - [FFMPEG] - Opening '/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e02.mp4' for reading
+Aug 08, 2021 14:55:50.774 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:50.776 [0x76c5ddcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:50.777 [0x76c5ddcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:50.777 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:50.819 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 153504000
+Aug 08, 2021 14:55:50.819 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:50.820 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:50.842 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 4 for stream st: 0
+Aug 08, 2021 14:55:50.843 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:50.899 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: -1, duration: 3881
+Aug 08, 2021 14:55:50.899 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 1 - media time: 0, duration: 75204485
+Aug 08, 2021 14:55:50.912 [0x76c5ddcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1683050 bytes read:1688929 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:50.913 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:50.913 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:50.914 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:50.915 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:50.915 [0x76c5ddcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:50.916 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:50.927 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:50.928 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:50.935 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:50.936 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:50.942 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2500
+Aug 08, 2021 14:55:50.943 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:50.943 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2499
+Aug 08, 2021 14:55:50.943 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:50.943 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2498
+Aug 08, 2021 14:55:50.943 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:50.943 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2497
+Aug 08, 2021 14:55:50.943 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2496
+Aug 08, 2021 14:55:50.944 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:50.944 [0x76c5ddcc] DEBUG - [FFMPEG] - probed stream 1
+Aug 08, 2021 14:55:50.944 [0x76c5ddcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:50.945 [0x76c5ddcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1713841 bytes read:1721697 seeks:0 frames:5
+Aug 08, 2021 14:55:50.945 [0x76c5ddcc] DEBUG - [MI] Opening "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e02.mp4" for MP4 atom parsing
+Aug 08, 2021 14:55:50.945 [0x76c5ddcc] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
+Aug 08, 2021 14:55:50.945 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found moov atom of size 1683010 at offset 24
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 614121 at offset 140
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 1068729 at offset 614261
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 613985 at offset 276
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 613900 at offset 361
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 613836 at offset 425
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 1068581 at offset 614409
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 1068496 at offset 614494
+Aug 08, 2021 14:55:50.950 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 1068436 at offset 614554
+Aug 08, 2021 14:55:50.951 [0x76c5ddcc] DEBUG - [MI]  * 4702c3bdfb09821b619cff3aea4090f139446a6b [mp4 h264/mp2] Duration: 1705317ms, 624x352 (1.772727) 25.029fps, bitrate=612kbps, audio channels=2, optimizedForStreaming=1 ("/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e02.mp4")
+Aug 08, 2021 14:55:50.951 [0x76c5ddcc] DEBUG - [MI] Chapters had generic titles, clearing.
+Aug 08, 2021 14:55:50.953 [0x76c5ddcc] DEBUG - [MI] Closing input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e02.mp4"
+Aug 08, 2021 14:55:50.957 [0x76c5ddcc] DEBUG - Committing media stream changes for part 2713
+Aug 08, 2021 14:55:50.961 [0x76c5ddcc] DEBUG - Updating media item 2713, size=130542669, metadata_item_id=1268
+Aug 08, 2021 14:55:50.962 [0x76c5ddcc] DEBUG - Updating part with ID=2713 [/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e02.mp4]
+Aug 08, 2021 14:55:50.962 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1268&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Aug 08, 2021 14:55:50.965 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1268&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Aug 08, 2021 14:55:50.966 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1268&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:50.969 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1268&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Aug 08, 2021 14:55:50.972 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:50.973 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:50.977 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:50.978 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 2) with ID 1268
+Aug 08, 2021 14:55:50.983 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:50.988 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:50.999 [0x76c5ddcc] DEBUG - Analyzing media parts for item 1269 (Episode 3): 2714
+Aug 08, 2021 14:55:51.002 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.002 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.008 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:51.009 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 3) with ID 1269
+Aug 08, 2021 14:55:51.014 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:51.018 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:51.018 [0x76c5ddcc] DEBUG - [ID 2714] Media part analysis: /tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e03.mp4
+Aug 08, 2021 14:55:51.019 [0x76c5ddcc] DEBUG - [MI] Opening input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e03.mp4"
+Aug 08, 2021 14:55:51.019 [0x76c5ddcc] DEBUG - [FFMPEG] - Opening '/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e03.mp4' for reading
+Aug 08, 2021 14:55:51.019 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:51.024 [0x76c5ddcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:51.025 [0x76c5ddcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:51.025 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:51.065 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 151048800
+Aug 08, 2021 14:55:51.065 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:51.065 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:51.088 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 3 for stream st: 0
+Aug 08, 2021 14:55:51.089 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:51.146 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: -1, duration: 3881
+Aug 08, 2021 14:55:51.146 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 1 - media time: 0, duration: 74003648
+Aug 08, 2021 14:55:51.158 [0x76c5ddcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1652702 bytes read:1678277 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:51.159 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.159 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.160 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:51.160 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.161 [0x76c5ddcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:51.163 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.175 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:51.176 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.183 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:51.185 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.191 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2500
+Aug 08, 2021 14:55:51.192 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:51.192 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2499
+Aug 08, 2021 14:55:51.192 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:51.192 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2498
+Aug 08, 2021 14:55:51.193 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:51.193 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2497
+Aug 08, 2021 14:55:51.193 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2496
+Aug 08, 2021 14:55:51.194 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:51.195 [0x76c5ddcc] DEBUG - [FFMPEG] - probed stream 1
+Aug 08, 2021 14:55:51.195 [0x76c5ddcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:51.196 [0x76c5ddcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1683243 bytes read:1711045 seeks:0 frames:5
+Aug 08, 2021 14:55:51.196 [0x76c5ddcc] DEBUG - [MI] Opening "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e03.mp4" for MP4 atom parsing
+Aug 08, 2021 14:55:51.196 [0x76c5ddcc] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
+Aug 08, 2021 14:55:51.196 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found moov atom of size 1652662 at offset 24
+Aug 08, 2021 14:55:51.201 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 600765 at offset 140
+Aug 08, 2021 14:55:51.202 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 1051737 at offset 600905
+Aug 08, 2021 14:55:51.202 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 600629 at offset 276
+Aug 08, 2021 14:55:51.202 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 600544 at offset 361
+Aug 08, 2021 14:55:51.202 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 600480 at offset 425
+Aug 08, 2021 14:55:51.202 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 1051589 at offset 601053
+Aug 08, 2021 14:55:51.202 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 1051504 at offset 601138
+Aug 08, 2021 14:55:51.202 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 1051444 at offset 601198
+Aug 08, 2021 14:55:51.203 [0x76c5ddcc] DEBUG - [MI]  * 16ea05322f5d5c24b06495e680069b6c23cdf024 [mp4 h264/mp2] Duration: 1678200ms, 624x352 (1.772727) 25.000fps, bitrate=651kbps, audio channels=2, optimizedForStreaming=1 ("/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e03.mp4")
+Aug 08, 2021 14:55:51.204 [0x76c5ddcc] DEBUG - [MI] Chapters had generic titles, clearing.
+Aug 08, 2021 14:55:51.206 [0x76c5ddcc] DEBUG - [MI] Closing input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e03.mp4"
+Aug 08, 2021 14:55:51.211 [0x76c5ddcc] DEBUG - Committing media stream changes for part 2714
+Aug 08, 2021 14:55:51.214 [0x76c5ddcc] DEBUG - Updating media item 2714, size=136686594, metadata_item_id=1269
+Aug 08, 2021 14:55:51.215 [0x76c5ddcc] DEBUG - Updating part with ID=2714 [/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e03.mp4]
+Aug 08, 2021 14:55:51.216 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1269&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Aug 08, 2021 14:55:51.220 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1269&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Aug 08, 2021 14:55:51.225 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1269&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:51.230 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.231 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.235 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1269&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Aug 08, 2021 14:55:51.240 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.242 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 3) with ID 1269
+Aug 08, 2021 14:55:51.247 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:51.251 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:51.260 [0x76c5ddcc] DEBUG - Analyzing media parts for item 1270 (Episode 4): 2715
+Aug 08, 2021 14:55:51.263 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.264 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.267 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:51.268 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 4) with ID 1270
+Aug 08, 2021 14:55:51.275 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:51.278 [0x76c5ddcc] DEBUG - [ID 2715] Media part analysis: /tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e04.mp4
+Aug 08, 2021 14:55:51.279 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:51.280 [0x76c5ddcc] DEBUG - [MI] Opening input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e04.mp4"
+Aug 08, 2021 14:55:51.280 [0x76c5ddcc] DEBUG - [FFMPEG] - Opening '/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e04.mp4' for reading
+Aug 08, 2021 14:55:51.280 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:51.282 [0x76c5ddcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:51.283 [0x76c5ddcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:51.283 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:51.349 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: -1, duration: 3881
+Aug 08, 2021 14:55:51.349 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 1 - media time: 0, duration: 74481909
+Aug 08, 2021 14:55:51.361 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:51.396 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 0, duration: 152028000
+Aug 08, 2021 14:55:51.396 [0x76c5ddcc] WARN - [FFMPEG] - st: 1 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:51.396 [0x76c5ddcc] WARN - [FFMPEG] - st: 1 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:51.416 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 3 for stream st: 1
+Aug 08, 2021 14:55:51.416 [0x76c5ddcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1668706 bytes read:1696374 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:51.417 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.417 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.417 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:51.418 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.418 [0x76c5ddcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:51.419 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.430 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:51.431 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.439 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:51.440 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.446 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 0 pp:2500
+Aug 08, 2021 14:55:51.446 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=417, packets=1 detected mp2 with score=1
+Aug 08, 2021 14:55:51.446 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 0 pp:2499
+Aug 08, 2021 14:55:51.447 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:51.447 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 0 pp:2498
+Aug 08, 2021 14:55:51.447 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:51.448 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 0 pp:2497
+Aug 08, 2021 14:55:51.448 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 0 pp:2496
+Aug 08, 2021 14:55:51.448 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:51.448 [0x76c5ddcc] DEBUG - [FFMPEG] - probed stream 0
+Aug 08, 2021 14:55:51.449 [0x76c5ddcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:51.449 [0x76c5ddcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1700128 bytes read:1729142 seeks:0 frames:5
+Aug 08, 2021 14:55:51.449 [0x76c5ddcc] DEBUG - [MI] Opening "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e04.mp4" for MP4 atom parsing
+Aug 08, 2021 14:55:51.449 [0x76c5ddcc] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
+Aug 08, 2021 14:55:51.449 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found moov atom of size 1668666 at offset 24
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 1058445 at offset 140
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 610061 at offset 1058585
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 1058297 at offset 288
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 1058212 at offset 373
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 1058152 at offset 433
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 609925 at offset 1058721
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 609840 at offset 1058806
+Aug 08, 2021 14:55:51.455 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 609776 at offset 1058870
+Aug 08, 2021 14:55:51.456 [0x76c5ddcc] DEBUG - [MI]  * 8bf18829d07275b14d1c59735f9e2dceff05790a [mp4 h264/mp2] Duration: 1689040ms, 624x352 (1.772727) 25.000fps, bitrate=652kbps, audio channels=2, optimizedForStreaming=1 ("/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e04.mp4")
+Aug 08, 2021 14:55:51.456 [0x76c5ddcc] DEBUG - [MI] Chapters had generic titles, clearing.
+Aug 08, 2021 14:55:51.458 [0x76c5ddcc] DEBUG - [MI] Closing input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e04.mp4"
+Aug 08, 2021 14:55:51.462 [0x76c5ddcc] DEBUG - Committing media stream changes for part 2715
+Aug 08, 2021 14:55:51.466 [0x76c5ddcc] DEBUG - Updating media item 2715, size=137700787, metadata_item_id=1270
+Aug 08, 2021 14:55:51.466 [0x76c5ddcc] DEBUG - Updating part with ID=2715 [/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e04.mp4]
+Aug 08, 2021 14:55:51.467 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1270&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Aug 08, 2021 14:55:51.472 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1270&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Aug 08, 2021 14:55:51.473 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1270&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:51.477 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1270&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Aug 08, 2021 14:55:51.487 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.487 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.494 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:51.495 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 4) with ID 1270
+Aug 08, 2021 14:55:51.500 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:51.504 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:51.513 [0x76c5ddcc] DEBUG - Analyzing media parts for item 1271 (Episode 5): 2716
+Aug 08, 2021 14:55:51.516 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.516 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.519 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:51.520 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 5) with ID 1271
+Aug 08, 2021 14:55:51.526 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:51.529 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)
+Aug 08, 2021 14:55:51.530 [0x76c5ddcc] DEBUG - [ID 2716] Media part analysis: /tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e05.mp4
+Aug 08, 2021 14:55:51.535 [0x76c5ddcc] DEBUG - [MI] Opening input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e05.mp4"
+Aug 08, 2021 14:55:51.535 [0x76c5ddcc] DEBUG - [FFMPEG] - Opening '/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e05.mp4' for reading
+Aug 08, 2021 14:55:51.535 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:51.537 [0x76c5ddcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:51.538 [0x76c5ddcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:51.539 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:51.577 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 0, duration: 151196400
+Aug 08, 2021 14:55:51.577 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list: 1 Missing key frame while searching for timestamp: 0
+Aug 08, 2021 14:55:51.577 [0x76c5ddcc] WARN - [FFMPEG] - st: 0 edit list 1 Cannot find an index entry before timestamp: 0.
+Aug 08, 2021 14:55:51.597 [0x76c5ddcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Aug 08, 2021 14:55:51.598 [0x76c5ddcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:51.653 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: -1, duration: 353
+Aug 08, 2021 14:55:51.653 [0x76c5ddcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 1 - media time: 0, duration: 74079709
+Aug 08, 2021 14:55:51.666 [0x76c5ddcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 1664686 bytes read:1688557 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:51.667 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.667 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.668 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:51.668 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:51.668 [0x76c5ddcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:51.670 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.683 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Aug 08, 2021 14:55:51.684 [0x76c5ddcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:51.694 [0x76c5ddcc] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Aug 08, 2021 14:55:51.701 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2500
+Aug 08, 2021 14:55:51.702 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2499
+Aug 08, 2021 14:55:51.702 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=834, packets=2 detected mp2 with score=5
+Aug 08, 2021 14:55:51.703 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2498
+Aug 08, 2021 14:55:51.703 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=1251, packets=3 detected mp2 with score=5
+Aug 08, 2021 14:55:51.704 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2497
+Aug 08, 2021 14:55:51.704 [0x76c5ddcc] DEBUG - [FFMPEG] - probing stream 1 pp:2496
+Aug 08, 2021 14:55:51.705 [0x76c5ddcc] DEBUG - [FFMPEG] - Probe with size=2085, packets=5 detected mp2 with score=25
+Aug 08, 2021 14:55:51.705 [0x76c5ddcc] DEBUG - [FFMPEG] - probed stream 1
+Aug 08, 2021 14:55:51.706 [0x76c5ddcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:51.706 [0x76c5ddcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 1694775 bytes read:1721325 seeks:0 frames:5
+Aug 08, 2021 14:55:51.707 [0x76c5ddcc] DEBUG - [MI] Opening "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e05.mp4" for MP4 atom parsing
+Aug 08, 2021 14:55:51.708 [0x76c5ddcc] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 24 at offset 0
+Aug 08, 2021 14:55:51.708 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found moov atom of size 1664646 at offset 24
+Aug 08, 2021 14:55:51.713 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 611229 at offset 140
+Aug 08, 2021 14:55:51.713 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found trak atom of size 1053257 at offset 611369
+Aug 08, 2021 14:55:51.713 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 611093 at offset 276
+Aug 08, 2021 14:55:51.713 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 611008 at offset 361
+Aug 08, 2021 14:55:51.713 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 610944 at offset 425
+Aug 08, 2021 14:55:51.714 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found mdia atom of size 1053109 at offset 611517
+Aug 08, 2021 14:55:51.714 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found minf atom of size 1053024 at offset 611602
+Aug 08, 2021 14:55:51.714 [0x76c5ddcc] DEBUG - Mp4AtomParser: Found stbl atom of size 1052964 at offset 611662
+Aug 08, 2021 14:55:51.715 [0x76c5ddcc] DEBUG - [MI]  * 7f4b75f4c267366cc0ec8b11e5751dbd28b2d99c [mp4 h264/mp2] Duration: 1679840ms, 624x352 (1.772727) 25.001fps, bitrate=566kbps, audio channels=2, optimizedForStreaming=1 ("/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e05.mp4")
+Aug 08, 2021 14:55:51.715 [0x76c5ddcc] DEBUG - [MI] Chapters had generic titles, clearing.
+Aug 08, 2021 14:55:51.717 [0x76c5ddcc] DEBUG - [MI] Closing input file: "/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e05.mp4"
+Aug 08, 2021 14:55:51.722 [0x76c5ddcc] DEBUG - Committing media stream changes for part 2716
+Aug 08, 2021 14:55:51.727 [0x76c5ddcc] DEBUG - Updating media item 2716, size=119013376, metadata_item_id=1271
+Aug 08, 2021 14:55:51.728 [0x76c5ddcc] DEBUG - Updating part with ID=2716 [/tv/Come Fly With Me/Season 01/Come.Fly.With.Me.s01e05.mp4]
+Aug 08, 2021 14:55:51.728 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1271&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Aug 08, 2021 14:55:51.732 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1271&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Aug 08, 2021 14:55:51.732 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1271&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:51.735 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=2&metadataItemID=1271&metadataType=4&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Aug 08, 2021 14:55:51.747 [0x76c5ddcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.747 [0x76c5ddcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:51.751 [0x76c5ddcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:51.752 [0x76c5ddcc] DEBUG - Updating metadata item (save) (Episode 5) with ID 1271
+Aug 08, 2021 14:55:51.760 [0x73e0cd50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265
+Aug 08, 2021 14:55:51.763 [0x73e0cd50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/flushMetadataCounterCache?metadataItemID=1265 (reused)

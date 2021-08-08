@@ -1,0 +1,59 @@
+Aug 08, 2021 14:55:43.100 [0x7480dd50] INFO - Plex Media Scanner v1.23.5.4862-0f739d462 - Docker Docker Container (LinuxServer.io) armv7l - build: linux-armv7neon - GMT 01:00
+Aug 08, 2021 14:55:43.101 [0x7480dd50] INFO - Linux version: 4.19.66-v7+, language: en-US
+Aug 08, 2021 14:55:43.101 [0x7480dd50] INFO - Processor Arm
+Aug 08, 2021 14:55:43.101 [0x7480dd50] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze --log-file-suffix  Analysis --no-thumbs --item 1247
+Aug 08, 2021 14:55:43.110 [0x76cebdcc] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.35.5, threadsafe=1
+Aug 08, 2021 14:55:43.950 [0x76cebdcc] DEBUG - Analyzing media parts for item 1247 (You Only Live Twice): 2679
+Aug 08, 2021 14:55:43.955 [0x76cebdcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:43.955 [0x76cebdcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:43.965 [0x76cebdcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:43.966 [0x76cebdcc] DEBUG - Updating metadata item (save) (You Only Live Twice) with ID 1247
+Aug 08, 2021 14:55:43.987 [0x76cebdcc] DEBUG - [ID 2679] Media part analysis: /movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4
+Aug 08, 2021 14:55:43.988 [0x76cebdcc] DEBUG - [MI] Opening input file: "/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4"
+Aug 08, 2021 14:55:43.989 [0x76cebdcc] DEBUG - [FFMPEG] - Opening '/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4' for reading
+Aug 08, 2021 14:55:43.989 [0x76cebdcc] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Aug 08, 2021 14:55:43.995 [0x76cebdcc] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Aug 08, 2021 14:55:43.995 [0x76cebdcc] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Aug 08, 2021 14:55:43.996 [0x76cebdcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:44.182 [0x76cebdcc] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 168438288
+Aug 08, 2021 14:55:44.275 [0x76cebdcc] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Aug 08, 2021 14:55:44.298 [0x76cebdcc] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Aug 08, 2021 14:55:44.300 [0x76cebdcc] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Aug 08, 2021 14:55:44.564 [0x76cebdcc] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 336875472
+Aug 08, 2021 14:55:44.564 [0x76cebdcc] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Aug 08, 2021 14:55:44.564 [0x76cebdcc] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Aug 08, 2021 14:55:44.638 [0x76cebdcc] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6159681 bytes read:6174599 seeks:0 nb_streams:2
+Aug 08, 2021 14:55:44.641 [0x76cebdcc] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:44.641 [0x76cebdcc] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Aug 08, 2021 14:55:44.642 [0x76cebdcc] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Aug 08, 2021 14:55:44.642 [0x76cebdcc] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Aug 08, 2021 14:55:44.642 [0x76cebdcc] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Aug 08, 2021 14:55:44.673 [0x76cebdcc] DEBUG - [FFMPEG] - no picture 
+Aug 08, 2021 14:55:44.719 [0x76cebdcc] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Aug 08, 2021 14:55:44.719 [0x76cebdcc] DEBUG - [FFMPEG] - All info found
+Aug 08, 2021 14:55:44.727 [0x76cebdcc] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 6160795 bytes read:6174599 seeks:0 frames:2
+Aug 08, 2021 14:55:44.727 [0x76cebdcc] DEBUG - [MI] Opening "/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4" for MP4 atom parsing
+Aug 08, 2021 14:55:44.727 [0x76cebdcc] DEBUG - Mp4AtomParser: Skipping ftyp atom of size 32 at offset 0
+Aug 08, 2021 14:55:44.727 [0x76cebdcc] DEBUG - Mp4AtomParser: Found moov atom of size 6159633 at offset 32
+Aug 08, 2021 14:55:44.777 [0x76cebdcc] DEBUG - Mp4AtomParser: Found trak atom of size 2672587 at offset 148
+Aug 08, 2021 14:55:44.778 [0x76cebdcc] DEBUG - Mp4AtomParser: Found trak atom of size 3486832 at offset 2672735
+Aug 08, 2021 14:55:44.778 [0x76cebdcc] DEBUG - Mp4AtomParser: Found mdia atom of size 2672451 at offset 284
+Aug 08, 2021 14:55:44.778 [0x76cebdcc] DEBUG - Mp4AtomParser: Found minf atom of size 2672366 at offset 369
+Aug 08, 2021 14:55:44.778 [0x76cebdcc] DEBUG - Mp4AtomParser: Found stbl atom of size 2672302 at offset 433
+Aug 08, 2021 14:55:44.778 [0x76cebdcc] DEBUG - Mp4AtomParser: Found mdia atom of size 3486696 at offset 2672871
+Aug 08, 2021 14:55:44.778 [0x76cebdcc] DEBUG - Mp4AtomParser: Found minf atom of size 3486611 at offset 2672956
+Aug 08, 2021 14:55:44.778 [0x76cebdcc] DEBUG - Mp4AtomParser: Found stbl atom of size 3486551 at offset 2673016
+Aug 08, 2021 14:55:44.785 [0x76cebdcc] DEBUG - [MI]  * 830c0752573694249d8c0e5babb4f9a06e9331be [mp4 h264/aac] Duration: 7018282ms, 1904x816 (2.333333) 23.976fps, bitrate=2159kbps, audio channels=2, optimizedForStreaming=1 ("/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4")
+Aug 08, 2021 14:55:44.785 [0x76cebdcc] DEBUG - [MI] Chapters had generic titles, clearing.
+Aug 08, 2021 14:55:44.788 [0x76cebdcc] DEBUG - [MI] Closing input file: "/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4"
+Aug 08, 2021 14:55:44.830 [0x76cebdcc] DEBUG - Committing media stream changes for part 2679
+Aug 08, 2021 14:55:44.837 [0x76cebdcc] DEBUG - Updating media item 2679, size=1894253645, metadata_item_id=1247
+Aug 08, 2021 14:55:44.839 [0x76cebdcc] DEBUG - Updating part with ID=2679 [/movies/You Only Live Twice (1967)/You.Only.Live.Twice.1967.mp4]
+Aug 08, 2021 14:55:44.841 [0x73e9ad50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1247&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing
+Aug 08, 2021 14:55:44.856 [0x73e9ad50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1247&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=analyzing (reused)
+Aug 08, 2021 14:55:44.857 [0x73e9ad50] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1247&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle
+Aug 08, 2021 14:55:44.864 [0x73e9ad50] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/:/metadata/notify/changeItemState?librarySectionID=1&metadataItemID=1247&metadataType=1&state=-1&parentID=-1&rootID=-1&mediaState=idle (reused)
+Aug 08, 2021 14:55:44.879 [0x76cebdcc] DEBUG - Downloading document http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:44.879 [0x76cebdcc] DEBUG - HTTP requesting GET http://127.0.0.1:32400/library/changestamp
+Aug 08, 2021 14:55:44.894 [0x76cebdcc] DEBUG - HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:32400/library/changestamp (reused)
+Aug 08, 2021 14:55:44.895 [0x76cebdcc] DEBUG - Updating metadata item (save) (You Only Live Twice) with ID 1247
