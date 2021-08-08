@@ -8,13 +8,13 @@ services:
         ports:
             - "32400:32400"
         environment:
-            - PUID=1001 # for UserID - `id username` - Gets username if and group ids it is a part of.
+            - PUID=1001 # for UserID
             - PGID=1002 # for GroupID
             - VERSION=docker # Let Docker handle the Plex Version, we keep our Dockerhub Endpoint up to date with the latest public builds.
             - TZ=Europe/London
             - PLEX_CLAIM=<CLAIM_TOKEN> # https://plex.tv/claim - If you have not already claimed your server (first time setup) you need to set PLEX_CLAIM to claim a server set up with bridge networking
         volumes:
-            - ~/piplex:/config
-            - /media/bradleytenuta/TOSHIBA EXT1/Movies:/movies
+            - ~/piplex:/config # Use the git project base folder for this.
+            - /media/bradleytenuta/TOSHIBA EXT1/Movies:/movies # Use the path to the external USB drive directly.
             - /media/bradleytenuta/TOSHIBA EXT1/TV_Shows:/tv
-        restart: unless-stopped
+        restart: unless-stopped # This means the server will boot up when the device is started and will only stop running if stopped.
