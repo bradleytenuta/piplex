@@ -8,6 +8,6 @@ You can add a IP address to this file so you dont have to type in the IP everyti
 
 #### Copying files over SSH
 
-1. Go to the file that contains the folders of films to copy. Use the following command to copy over files while logged in: 'pscp -r \* pi@Bradley-Pi:~/piplex/'
+1. Go to the file that contains the folders of films to copy. Use the following command to copy over files while logged in: 'scp -r \* pi@Bradley-Pi:~/piplex/mnt/ext_1/Movies/'
 
 -   -r means recursive

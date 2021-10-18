@@ -1,12 +1,10 @@
+### View Plex Server web interface
+
+http://localhost:32400/web
+
 ### Permissions
 
-Make sure the below permissions are used for the docker-compose configuration.
-
-`uid=bradleytenuta`
-
-`gid=plexgroup`
-
-The command: `id username`, gets username and group ids if it is a part of the user.
+The command: `id`, gets all users, groups and their identifers.
 
 ### Other notes
 
@@ -28,7 +26,7 @@ sudo chmod -R u+x [DIR]
 There are two reasons to use a static IP. One is that the IP will be easier to remember.
 Second is that it will make sure your Plex server can always be found at the same address.
 
-To get your current IP address, enter the following command.
+To get your current IP address, enter the following command (Its the first IP in the list.).
 
 `hostname -I`
 
@@ -45,6 +43,13 @@ Once done, exit by pressing `CTRL + X` and then `Y` to save.
 Now simply restart the Pi by running the following command.
 
 `sudo reboot`
+
+### How to allow remote access for Plex
+
+1. Open up your router. Usually it starts like: `192.168.0.1`.
+   Go to port forwarding and create a new rule.
+2. Use the IP address for the plex server and place in the ports you want to use.
+3. Create rule, then open up the plex web UI and turn on remote access, should be good to go now.
 
 #### Useful commands
 

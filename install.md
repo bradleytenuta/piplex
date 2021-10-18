@@ -20,6 +20,6 @@ sudo apt-get install -y python3 python3-pip
 
 ### Install Docker Compose
 
-`sudo pip3 install docker-compose`
+`sudo pip3 install "docker-compose<1.28"`
 
 `sudo systemctl enable docker`
