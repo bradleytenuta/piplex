@@ -45,3 +45,8 @@ Once done, exit by pressing `CTRL + X` and then `Y` to save.
 Now simply restart the Pi by running the following command.
 
 `sudo reboot`
+
+#### Useful commands
+
+If memory of `/dev/root` is 100% then nothing will work. You will need to ssh in and free up some memory.
+Command `df -h` shows the total memory used. Command `sudo du -xh / | grep -P "G\t"` shows which folders have used the most memory.
