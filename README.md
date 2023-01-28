@@ -114,6 +114,12 @@ Command `df -h` shows the total memory used. Command `sudo du -xh / | grep -P "G
 
 - The command: `id`, gets all users, groups and their identifers.
 - Make sure to name the plex server `Bradley-Pi` when starting it.
+- Create an SSH key like so
+   - Open `~/.ssh` folder.
+   - Type command: `ssh-keygen -t ecdsa -b 521`
+   - Use default name and no password.
+   - Get the info from inside the public key like so: `cat id_ecdsa.pub`.
+   - Copy to clipboard and then pase in SSH keys in github settings.
 
 
 # SSH Info
