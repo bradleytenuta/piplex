@@ -26,8 +26,11 @@ sudo apt-get install -y python3 python3-pip
 
 `sudo systemctl enable docker`
 
+### Great software to have on Windows to help with SSH onto client.
 
+PUTTY - Great for SSH onto the Rasberry PI.
 
+WinSCP - Great for Using SCP and being able to transfer files from one machine to another.
 
 # Using Plex
 
