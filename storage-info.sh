@@ -1,1 +1,1 @@
-df -h | grep -e /media/ -e Filesystem
+df -h | grep -e /mnt -e Filesystem

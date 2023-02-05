@@ -151,6 +151,9 @@ Command `df -h` shows the total memory used. Command `sudo du -xh / | grep -P "G
    - Use default name and no password.
    - Get the info from inside the public key like so: `cat id_ecdsa.pub`.
    - Copy to clipboard and then pase in SSH keys in github settings.
+- Issues with space? Check if `/dev/root` is full with command: `df -h`. If it is, you need to free up space.
+   - See what is using up all the space: `sudo du -xh / | grep -P "G\t"`
+   - Might be due to the very large `/config` file that the plex server creates.
 
 
 # SSH Info
