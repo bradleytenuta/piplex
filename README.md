@@ -32,6 +32,34 @@ PUTTY - Great for SSH onto the Rasberry PI.
 
 WinSCP - Great for Using SCP and being able to transfer files from one machine to another.
 
+### Mount Hard Drive
+
+Useful website: https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-mount-an-external-hard-drive-on-the-raspberry-pi-raspian
+
+Check what current storage devices there are:
+
+`blkid`
+
+Checks current drives and partitions:
+
+`fdisk –l`
+
+If the External hard drive is mounted but to the wrong location, then unmount it like so:
+
+`umount <path-to-mounted-folder>`
+
+Mount the external hard drive to the right folder:
+
+`mount /dev/sda1 /mnt`
+
+Make sure the `/mnt` folder has the correct permissions:
+
+`sudo chmod 775 /mnt`
+
+You can check this worked by trying to create a folder in this directory. Now for the mount to occur automatically when booting up. Add the following `/dev/sda1 /mnt ntfs defaults 0 0` to the bottom of this file:
+
+`nano /etc/fstab` 
+
 # Using Plex
 
 ### View Plex Server web interface

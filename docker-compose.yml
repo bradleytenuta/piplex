@@ -15,6 +15,6 @@ services:
             - PLEX_CLAIM=claim-QY9spusyzoe96J66sJY7 # https://plex.tv/claim - If you have not already claimed your server (first time setup) you need to set PLEX_CLAIM to claim a server set up with bridge networking
         volumes:
             - ~/piplex:/config # Use the git project base folder for this.
-            - /media/pi/TOSHIBA EXT1/Movies:/movies # Use the path to the external USB drive directly.
-            - /media/pi/TOSHIBA EXT1/TV_Shows:/tv
+            - /mnt/Movies:/movies # Use the path to the external USB drive directly.
+            - /mnt/TV_Shows:/tv
         restart: unless-stopped # This means the server will boot up when the device is started and will only stop running if stopped.
