@@ -1,10 +1,9 @@
-version: "2"
+version: "2.1"
 services:
     plex:
         image: ghcr.io/linuxserver/plex
         container_name: plex
-        network_mode: bridge
-        privileged: true
+        network_mode: host
         ports:
             - "32400:32400"
         environment:
@@ -12,9 +11,9 @@ services:
             - PGID=1000 # for GroupID
             - VERSION=docker # Let Docker handle the Plex Version, we keep our Dockerhub Endpoint up to date with the latest public builds.
             - TZ=Europe/London
-            - PLEX_CLAIM=claim-QY9spusyzoe96J66sJY7 # https://plex.tv/claim - If you have not already claimed your server (first time setup) you need to set PLEX_CLAIM to claim a server set up with bridge networking
+            - PLEX_CLAIM=claim-W7AsYA9Ckak5Ckn9U4-c # https://plex.tv/claim - If you have not already claimed your server (first time setup) you need to set PLEX_CLAIM to claim a server set up with bridge networking
         volumes:
-            - ~/piplex:/config # Use the git project base folder for this.
+            - ~/projects/piplex:/config # Use the git project base folder for this.
             - /mnt/Movies:/movies # Use the path to the external USB drive directly.
             - /mnt/TV_Shows:/tv
         restart: unless-stopped # This means the server will boot up when the device is started and will only stop running if stopped.

@@ -1,56 +1,47 @@
-# Installing Plex
+# Updating Pi
 
-### Updates the list of available packages and their versions
-
+Updates the list of available packages and their versions
 `sudo apt-get update`
 
-### Actually installs newer versions of the packages
-
+Actually installs newer versions of the packages
 `sudo apt-get upgrade`
 
-### Install Docker
 
-`curl -sSL https://get.docker.com | sh` NOTE - only run this command if docker is not installed.
 
-### Install Docker Compose required libraries
+# Installing Docker and Docker Compose
 
-```
-sudo apt-get install libffi-dev libssl-dev
-sudo apt install python3-dev
-sudo apt-get install -y python3 python3-pip
-```
+`sudo apt install docker.io`
+`sudo apt install docker-compose -y`
 
-### Install Docker Compose
 
-`sudo pip3 install "docker-compose<1.28"`
 
-`sudo systemctl enable docker`
-
-### Great software to have on Windows to help with SSH onto client.
+# Great software to have on Windows to help with SSH onto client.
 
 PUTTY - Great for SSH onto the Rasberry PI.
-
 WinSCP - Great for Using SCP and being able to transfer files from one machine to another.
 
+
+
+# Installing Plex
 ### Mount Hard Drive
 
 Useful website: https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-mount-an-external-hard-drive-on-the-raspberry-pi-raspian
 
 Check what current storage devices there are:
 
-`blkid`
+`sudo blkid`
 
 Checks current drives and partitions:
 
-`fdisk –l`
+`sudo fdisk –l`
 
 If the External hard drive is mounted but to the wrong location, then unmount it like so:
 
-`umount <path-to-mounted-folder>`
+`sudo umount /dev/sda1`
 
 Mount the external hard drive to the right folder:
 
-`mount /dev/sda1 /mnt`
+`sudo mount /dev/sda1 /mnt`
 
 Make sure the `/mnt` folder has the correct permissions:
 
@@ -82,11 +73,11 @@ Then follow the commands below to restart the plex server.
 
 First shutdown the container:
 
-`sudo docker-compose -f ~/piplex/docker-compose.yml down`
+`sudo docker-compose -f ~/projects/piplex/docker-compose.yml down`
 
 Then boot it back up again and have it run in the backend.
 
-`sudo docker-compose -f ~/piplex/docker-compose.yml up -d`
+`sudo docker-compose -f ~/projects/piplex/docker-compose.yml up -d`
 
 ### Starting and stopping the plex server without updating it
 
@@ -104,7 +95,7 @@ The three commands will give the user who owns these files, permission to execut
 Run these commands below in the current directory. This will recursivly give permissions
 to each file in the directory given.
 
-`sudo chmod -R u+x <DIR>`
+`sudo chmod -R u+x ~/projects/piplex`
 
 ### Add Static IP Address
 
